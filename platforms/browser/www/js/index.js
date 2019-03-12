@@ -58,7 +58,10 @@ function vibr(){
     navigator.vibrate(2000);
 }
 
-function playSound() {
-    var sound = document.getElementById("audio");
-    sound.play();
-}
+function playAudio() { 
+    x.play(); 
+  } 
+  
+  function pauseAudio() { 
+    x.pause(); 
+  }
